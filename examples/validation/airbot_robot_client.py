@@ -8,10 +8,10 @@ This client uses the LeRobot async inference API with AIRBOT hardware:
 
 Usage:
 1. Start the policy server:
-   python -m lerobot.async_inference.policy_server --host=127.0.0.1 --port=8080
+   uv run -m lerobot.async_inference.policy_server --host=127.0.0.1 --port=8080
 
 2. Run this client:
-   python examples/tutorial/async-inf/airbot_robot_client.py --pretrained /path/to/checkpoint
+   uv run examples/validation/airbot_robot_client.py --pretrained /path/to/checkpoint
 """
 
 import re

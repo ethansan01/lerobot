@@ -26,11 +26,11 @@
 
 ## Quick Start
 
-LeRobot can be installed directly from PyPI.
+#### Modified to use uv instead of pip
 
 ```bash
-pip install lerobot
-lerobot-info
+uv sync
+uv sync --extra xvla # to get the xvla model
 ```
 
 > [!IMPORTANT]
